@@ -1,9 +1,6 @@
 {
   "compilerOptions": {
-    "types": [
-      "@nuxt/types",
-      "@nuxtjs/axios"
-    ],
+    "types": ["@nuxt/types", "@nuxtjs/axios"],
     "module": "esnext"
   },
   "extends": "./.nuxt/tsconfig.json"

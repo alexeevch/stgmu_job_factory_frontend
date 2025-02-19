@@ -7,7 +7,10 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint:eslint": "eslint .",
+    "lint:prettier": "prettier . --check",
+    "lintfix": "eslint . --fix && prettier --write --list-different ."
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
@@ -23,7 +26,12 @@
     "vue-router": "latest"
   },
   "devDependencies": {
+    "@nuxt/eslint": "^1.1.0",
     "@nuxtjs/tailwindcss": "^6.13.1",
-    "@primevue/nuxt-module": "^4.2.5"
+    "@primevue/nuxt-module": "^4.2.5",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "prettier": "^3.5.1"
   }
 }
