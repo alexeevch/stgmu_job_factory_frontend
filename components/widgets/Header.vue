@@ -1,5 +1,5 @@
 <script setup>
-import PersonalAccount from '~/components/buttons/personal-account.vue'
+import PersonalAccount from "~/components/buttons/personal-account.vue";
 </script>
 
 <template>
@@ -36,7 +36,9 @@ import PersonalAccount from '~/components/buttons/personal-account.vue'
   font-weight: 500; /* Полужирный шрифт */
   padding: 0.75rem 1.5rem; /* Паддинг для удобства нажатия */
   border-radius: 16px; /* Скругление кнопок */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Анимация при наведении */
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease; /* Анимация при наведении */
   display: flex;
   align-items: center;
   justify-content: center;

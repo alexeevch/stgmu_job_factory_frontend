@@ -1,12 +1,10 @@
 <template>
   <div class="default-template">
-    <WidgetsHeader/>
+    <WidgetsHeader />
     <main>
-      <slot/>
+      <slot />
     </main>
-    <footer class="footer">
-      footer
-    </footer>
+    <footer class="footer">footer</footer>
   </div>
 </template>
 

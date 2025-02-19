@@ -1,20 +1,20 @@
 <template>
   <div class="auth-button-container">
     <Button
-        label="Личный кабинет"
-        icon="pi pi-user"
-        class="auth-button !rounded-2xl"
-        @click="toggleMenu"
-        aria-haspopup="true"
-        aria-controls="auth-menu"
+      label="Личный кабинет"
+      icon="pi pi-user"
+      class="auth-button !rounded-2xl"
+      aria-haspopup="true"
+      aria-controls="auth-menu"
+      @click="toggleMenu"
     />
 
     <Menu
-        id="auth-menu"
-        :model="menuItems"
-        :popup="true"
-        ref="menu"
-        class="auth-menu"
+      id="auth-menu"
+      ref="menu"
+      :model="menuItems"
+      :popup="true"
+      class="auth-menu"
     />
   </div>
 </template>
