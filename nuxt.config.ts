@@ -1,25 +1,22 @@
-import tailwindcss from '@tailwindcss/vite'
+import Aura from "@primevue/themes/aura";
 
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
-  devtools: {
-    enabled: true
-  },
-  modules: [
-    '@primevue/nuxt-module',
-    '@pinia/nuxt',
-    'pinia-plugin-persistedstate/nuxt'
-  ],
-  primevue: {
-    importTheme: { from: '~/configs/app/stgmuTheme.js' }
-  },
-  vite: {
-    plugins: [
-      tailwindcss()
-    ]
-  },
-  css: [
-    '~/assets/css/main.css',
-    'primeicons/primeicons.css'
-  ]
+    compatibilityDate: '2024-11-01',
+    devtools: {
+        enabled: true
+    },
+    modules: [
+        '@nuxtjs/tailwindcss',
+        '@primevue/nuxt-module',
+        '@pinia/nuxt',
+        'pinia-plugin-persistedstate/nuxt'
+    ],
+    primevue: {
+        options: {
+            theme: {
+                preset: Aura,
+            },
+            ripple: true,
+        },
+    },
 })
