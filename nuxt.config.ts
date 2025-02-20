@@ -16,8 +16,15 @@ export default defineNuxtConfig({
     options: {
       theme: {
         preset: Aura,
+        options: {
+          darkModeSelector: "none",
+        },
       },
       ripple: true,
     },
+    autoImport: true,
+  },
+  tailwindcss: {
+    configPath: "~/tailwind.config.js",
   },
 });
