@@ -1,5 +1,5 @@
 <template>
-  <div class="default-template bg-[#F7FAFD]">
+  <div class="default-template bg-[#F7FAFD] font-inter">
     <WidgetsHeader />
     <main>
       <slot />
