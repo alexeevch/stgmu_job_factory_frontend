@@ -20,12 +20,12 @@ const menuItems: Array<MenuItem> = [
 <template>
   <header class="container mx-auto">
     <ul
-      class="flex items-center justify-center shadow-sm w-full mt-8 bg-white dark:bg-gray-800 rounded-3xl align-middle"
+      class="dark:bg-gray-800 mt-8 flex w-full items-center justify-center rounded-3xl bg-white align-middle shadow-sm"
     >
       <li
         v-for="item in menuItems"
         :key="item.name"
-        class="pl-7 pr-7 pb-4 pt-4 text-gray-600 hover:text-link transition duration-300 font-semibold"
+        class="pb-4 pl-7 pr-7 pt-4 font-semibold text-gray-600 transition duration-300 hover:text-link"
       >
         <router-link :to="item.to">
           {{ item.label }}

@@ -4,7 +4,7 @@ import { Form } from "@primevue/forms";
 
 <template>
   <div class="flex justify-center">
-    <Form class="flex flex-col gap-4 w-full sm:w-80">
+    <Form class="flex w-full flex-col gap-4 sm:w-80">
       <FormField
         v-slot="$field"
         name="username"
