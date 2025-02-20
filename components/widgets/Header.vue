@@ -25,7 +25,7 @@ const menuItems: Array<MenuItem> = [
       <li
         v-for="item in menuItems"
         :key="item.name"
-        class="pl-7 pr-7 pb-4 pt-4 hover:text-link transition duration-300"
+        class="pl-7 pr-7 pb-4 pt-4 text-gray-600 hover:text-link transition duration-300 font-semibold"
       >
         <router-link :to="item.to">
           {{ item.label }}
