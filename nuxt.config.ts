@@ -12,6 +12,11 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "pinia-plugin-persistedstate/nuxt",
   ],
+  runtimeConfig: {
+    public: {
+      siteName: process.env.SITE_NAME,
+    },
+  },
   primevue: {
     options: {
       theme: {
