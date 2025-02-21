@@ -20,16 +20,16 @@ const menuItems: Array<MenuItem> = [
 <template>
   <header class="container mx-auto">
     <ul
-      class="dark:bg-gray-800 mt-8 flex w-full items-center justify-center rounded-3xl bg-white align-middle shadow-sm"
+      class="my-4 flex w-full items-center justify-center rounded-3xl bg-white py-5 align-middle shadow-sm"
     >
       <li
         v-for="item in menuItems"
         :key="item.name"
-        class="pb-4 pl-7 pr-7 pt-4 font-semibold text-gray-600 transition duration-300 hover:text-link"
+        class="font-semibold text-gray-600 transition duration-300 hover:text-link"
       >
-        <router-link :to="item.to">
+        <nuxt-link :to="item.to" :aria-label="item.label" class="px-4 py-3">
           {{ item.label }}
-        </router-link>
+        </nuxt-link>
       </li>
     </ul>
   </header>
