@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     },
   },
   primevue: {
-    importTheme: { from: "~/configs/stgmuTheme.js" },
+    importTheme: { from: "~/configs/theme.config.ts" },
     options: {
       ripple: true,
     },
