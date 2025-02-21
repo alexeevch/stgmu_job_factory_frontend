@@ -1,6 +1,7 @@
 <script setup lang="ts">
-definePageMeta({
+useSeoMeta({
   title: "Главная страница",
+  description: "Нади работу мечты",
 });
 </script>
 

@@ -1,12 +1,10 @@
-export default defineNuxtRouteMiddleware((to) => {
+export default defineNuxtRouteMiddleware(() => {
   const config = useRuntimeConfig();
   const defaultTitle = config.public.siteName;
 
-  const newTitle = to.meta.title
-    ? `${to.meta.title} - ${defaultTitle}`
-    : defaultTitle;
-
   useHead({
-    title: newTitle,
+    titleTemplate: (titleChunk) => {
+      return titleChunk ? `${titleChunk} - ${defaultTitle}` : defaultTitle;
+    },
   });
 });
