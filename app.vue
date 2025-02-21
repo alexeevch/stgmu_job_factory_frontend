@@ -2,14 +2,14 @@
 const config = useRuntimeConfig();
 const route = useRoute();
 
-const getPageTitle = (): string => {
+const title = computed(() => {
   return route.meta.title
     ? `${route.meta.title} - ${config.public.siteName}`
     : config.public.siteName;
-};
+});
 
 useHead({
-  title: getPageTitle(),
+  title,
 });
 </script>
 
