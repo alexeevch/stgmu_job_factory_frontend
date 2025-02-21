@@ -7,11 +7,11 @@ interface MenuItem {
 
 const menuItems: Array<MenuItem> = [
   { name: "home", to: "/", label: "Главная" },
-  { name: "vacancies", to: "/vacancies", label: "Вакансии" },
-  { name: "resume", to: "/resume", label: "Разместить резюме" },
+  { name: "vacancies", to: "/", label: "Вакансии" },
+  { name: "resume", to: "/", label: "Разместить резюме" },
   {
     name: "public-vacancy",
-    to: "/public-vacancy",
+    to: "/",
     label: "Опубликовать вакансию",
   },
 ];
