@@ -1,6 +1,10 @@
+<script setup lang="ts">
+import DefaultHeader from "~/components/widgets/default-header.vue";
+</script>
+
 <template>
   <div class="default-template bg-[#F7FAFD] font-inter">
-    <WidgetsHeader />
+    <default-header />
     <main>
       <slot />
     </main>

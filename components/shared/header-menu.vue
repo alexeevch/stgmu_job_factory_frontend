@@ -18,19 +18,15 @@ const menuItems: Array<MenuItem> = [
 </script>
 
 <template>
-  <header class="container mx-auto">
-    <ul
-      class="my-4 flex w-full items-center justify-center rounded-3xl bg-white py-5 align-middle shadow-sm"
+  <ul class="flex items-center justify-center align-middle">
+    <li
+      v-for="item in menuItems"
+      :key="item.name"
+      class="block font-semibold text-gray-600 transition duration-300 hover:text-link"
     >
-      <li
-        v-for="item in menuItems"
-        :key="item.name"
-        class="font-semibold text-gray-600 transition duration-300 hover:text-link"
-      >
-        <nuxt-link :to="item.to" :aria-label="item.label" class="px-4 py-3">
-          {{ item.label }}
-        </nuxt-link>
-      </li>
-    </ul>
-  </header>
+      <nuxt-link :to="item.to" :aria-label="item.label" class="block px-4 py-5">
+        {{ item.label }}
+      </nuxt-link>
+    </li>
+  </ul>
 </template>
