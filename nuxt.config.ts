@@ -13,6 +13,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       siteName: process.env.SITE_NAME,
+      useMockData: process.env.USE_MOCK_DATA,
+      apiUrl: process.env.API_URL,
     },
   },
   primevue: {
