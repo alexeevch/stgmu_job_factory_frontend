@@ -2,7 +2,6 @@
   <div class="auth-button-container">
     <Button
       label="Личный кабинет"
-      icon="pi pi-user"
       class="auth-button !rounded-2xl"
       aria-haspopup="true"
       aria-controls="auth-menu"
