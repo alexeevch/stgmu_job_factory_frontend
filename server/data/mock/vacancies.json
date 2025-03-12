@@ -1,0 +1,485 @@
+[
+    {
+      "id": 1,
+      "title": "Врач-терапевт",
+      "company": {
+        "name": "Городская поликлиника №1"
+      },
+      "salary": {
+        "from": 80000,
+        "to": 120000,
+        "currency": "₽"
+      },
+      "description": "Требуется врач-терапевт для работы в поликлинике. Полная занятость, официальное трудоустройство, социальный пакет.",
+      "location": "Москва",
+      "publishedAt": "2024-03-11",
+      "education": "specialist",
+      "experience": "1-3",
+      "employmentType": "full-time",
+      "socialSupport": true,
+      "certification": true,
+      "specialty": "Терапевт"
+    },
+    {
+      "id": 2,
+      "title": "Врач-хирург",
+      "company": {
+        "name": "Областная клиническая больница"
+      },
+      "salary": {
+        "from": 120000,
+        "to": 180000,
+        "currency": "₽"
+      },
+      "description": "Ведущая больница города ищет опытного хирурга. Возможность профессионального роста, современное оборудование.",
+      "location": "Санкт-Петербург",
+      "publishedAt": "2024-03-10",
+      "education": "specialist",
+      "experience": "3-5",
+      "employmentType": "full-time",
+      "socialSupport": true,
+      "certification": true,
+      "specialty": "Хирург"
+    },
+    {
+      "id": 3,
+      "title": "Врач-педиатр участковый",
+      "company": {
+        "name": "Детская поликлиника №3"
+      },
+      "salary": {
+        "from": 70000,
+        "to": 90000,
+        "currency": "₽"
+      },
+      "description": "Требуется педиатр для работы на участке. Молодым специалистам предоставляется дополнительная поддержка.",
+      "location": "Москва",
+      "publishedAt": "2024-03-09",
+      "education": "specialist",
+      "experience": "no-experience",
+      "employmentType": "full-time",
+      "socialSupport": true,
+      "certification": true,
+      "specialty": "Педиатр"
+    },
+    {
+      "id": 4,
+      "title": "Врач-кардиолог",
+      "company": {
+        "name": "Кардиологический центр"
+      },
+      "salary": {
+        "from": 150000,
+        "to": 200000,
+        "currency": "₽"
+      },
+      "description": "Требуется опытный кардиолог для работы в современном медицинском центре. Опыт работы с ЭКГ, холтеровским мониторированием.",
+      "location": "Москва",
+      "publishedAt": "2024-03-08",
+      "education": "specialist",
+      "experience": "3-5",
+      "employmentType": "full-time",
+      "socialSupport": true,
+      "certification": true,
+      "specialty": "Кардиолог"
+    },
+    {
+      "id": 5,
+      "title": "Врач-невролог",
+      "company": {
+        "name": "Неврологическая клиника"
+      },
+      "salary": {
+        "from": 130000,
+        "to": 180000,
+        "currency": "₽"
+      },
+      "description": "Приглашаем врача-невролога для амбулаторного приема пациентов. Возможность профессионального развития.",
+      "location": "Санкт-Петербург",
+      "publishedAt": "2024-03-07",
+      "education": "specialist",
+      "experience": "1-3",
+      "employmentType": "full-time",
+      "socialSupport": false,
+      "certification": true,
+      "specialty": "Невролог"
+    },
+    {
+      "id": 6,
+      "title": "Врач-стоматолог",
+      "company": {
+        "name": "Стоматологическая клиника Дента+"
+      },
+      "salary": {
+        "from": 200000,
+        "to": 300000,
+        "currency": "₽"
+      },
+      "description": "Современная стоматологическая клиника приглашает врача-стоматолога. Новейшее оборудование, достойная оплата.",
+      "location": "Москва",
+      "publishedAt": "2024-03-07",
+      "education": "specialist",
+      "experience": "3-5",
+      "employmentType": "full-time",
+      "socialSupport": false,
+      "certification": true,
+      "specialty": "Стоматолог"
+    },
+    {
+      "id": 7,
+      "title": "Врач-офтальмолог",
+      "company": {
+        "name": "Центр микрохирургии глаза"
+      },
+      "salary": {
+        "from": 160000,
+        "to": 220000,
+        "currency": "₽"
+      },
+      "description": "Требуется врач-офтальмолог для работы в современной клинике. Опыт работы с современным диагностическим оборудованием.",
+      "location": "Екатеринбург",
+      "publishedAt": "2024-03-06",
+      "education": "specialist",
+      "experience": "3-5",
+      "employmentType": "full-time",
+      "socialSupport": true,
+      "certification": true,
+      "specialty": "Офтальмолог"
+    },
+    {
+      "id": 8,
+      "title": "Врач-эндокринолог",
+      "company": {
+        "name": "Медицинский центр Здоровье"
+      },
+      "salary": {
+        "from": 120000,
+        "to": 160000,
+        "currency": "₽"
+      },
+      "description": "Приглашаем врача-эндокринолога для амбулаторного приема. Гибкий график работы.",
+      "location": "Казань",
+      "publishedAt": "2024-03-06",
+      "education": "specialist",
+      "experience": "1-3",
+      "employmentType": "part-time",
+      "socialSupport": false,
+      "certification": true,
+      "specialty": "Эндокринолог"
+    },
+    {
+      "id": 9,
+      "title": "Врач-дерматолог",
+      "company": {
+        "name": "Клиника эстетической медицины"
+      },
+      "salary": {
+        "from": 140000,
+        "to": 200000,
+        "currency": "₽"
+      },
+      "description": "Требуется врач-дерматолог со знанием современных методик лечения. Возможность обучения новым технологиям.",
+      "location": "Москва",
+      "publishedAt": "2024-03-05",
+      "education": "specialist",
+      "experience": "3-5",
+      "employmentType": "full-time",
+      "socialSupport": false,
+      "certification": true,
+      "specialty": "Дерматолог"
+    },
+    {
+      "id": 10,
+      "title": "Врач-педиатр",
+      "company": {
+        "name": "Детский медицинский центр"
+      },
+      "salary": {
+        "from": 90000,
+        "to": 120000,
+        "currency": "₽"
+      },
+      "description": "Приглашаем врача-педиатра для работы в частной клинике. Дружный коллектив, комфортные условия работы.",
+      "location": "Новосибирск",
+      "publishedAt": "2024-03-05",
+      "education": "specialist",
+      "experience": "1-3",
+      "employmentType": "full-time",
+      "socialSupport": true,
+      "certification": true,
+      "specialty": "Педиатр"
+    },
+    {
+      "id": 11,
+      "title": "Врач-гинеколог",
+      "company": {
+        "name": "Женская консультация №5"
+      },
+      "salary": {
+        "from": 110000,
+        "to": 150000,
+        "currency": "₽"
+      },
+      "description": "Требуется врач-гинеколог для работы в женской консультации. Полный социальный пакет.",
+      "location": "Ростов-на-Дону",
+      "publishedAt": "2024-03-04",
+      "education": "specialist",
+      "experience": "no-experience",
+      "employmentType": "full-time",
+      "socialSupport": true,
+      "certification": true,
+      "specialty": "Акушер-гинеколог"
+    },
+    {
+      "id": 12,
+      "title": "Врач-анестезиолог",
+      "company": {
+        "name": "Городская больница №2"
+      },
+      "salary": {
+        "from": 180000,
+        "to": 250000,
+        "currency": "₽"
+      },
+      "description": "Срочно требуется врач-анестезиолог. Работа в операционном блоке, график сменный.",
+      "location": "Санкт-Петербург",
+      "publishedAt": "2024-03-04",
+      "education": "specialist",
+      "experience": "3-5",
+      "employmentType": "full-time",
+      "socialSupport": true,
+      "certification": true,
+      "specialty": "Анестезиолог-реаниматолог"
+    },
+    {
+      "id": 13,
+      "title": "Врач-отоларинголог",
+      "company": {
+        "name": "Поликлиника №7"
+      },
+      "salary": {
+        "from": 100000,
+        "to": 140000,
+        "currency": "₽"
+      },
+      "description": "Приглашаем врача-отоларинголога для работы в поликлинике. Возможно совместительство.",
+      "location": "Краснодар",
+      "publishedAt": "2024-03-03",
+      "education": "specialist",
+      "experience": "1-3",
+      "employmentType": "part-time",
+      "socialSupport": true,
+      "certification": true,
+      "specialty": "Отоларинголог"
+    },
+    {
+      "id": 14,
+      "title": "Врач-уролог",
+      "company": {
+        "name": "Урологический центр"
+      },
+      "salary": {
+        "from": 140000,
+        "to": 190000,
+        "currency": "₽"
+      },
+      "description": "Требуется врач-уролог для амбулаторного приема. Современное оборудование, достойная оплата.",
+      "location": "Москва",
+      "publishedAt": "2024-03-03",
+      "education": "specialist",
+      "experience": "3-5",
+      "employmentType": "full-time",
+      "socialSupport": false,
+      "certification": true,
+      "specialty": "Уролог"
+    },
+    {
+      "id": 15,
+      "title": "Врач-психиатр",
+      "company": {
+        "name": "Психиатрическая больница"
+      },
+      "salary": {
+        "from": 120000,
+        "to": 160000,
+        "currency": "₽"
+      },
+      "description": "Приглашаем врача-психиатра для работы в стационаре. Полный социальный пакет, льготная пенсия.",
+      "location": "Воронеж",
+      "publishedAt": "2024-03-02",
+      "education": "specialist",
+      "experience": "5+",
+      "employmentType": "full-time",
+      "socialSupport": true,
+      "certification": true,
+      "specialty": "Психиатр"
+    },
+    {
+      "id": 16,
+      "title": "Врач-рентгенолог",
+      "company": {
+        "name": "Диагностический центр"
+      },
+      "salary": {
+        "from": 150000,
+        "to": 200000,
+        "currency": "₽"
+      },
+      "description": "Требуется врач-рентгенолог для работы на современном оборудовании. Опыт работы с КТ и МРТ.",
+      "location": "Екатеринбург",
+      "publishedAt": "2024-03-02",
+      "education": "specialist",
+      "experience": "3-5",
+      "employmentType": "full-time",
+      "socialSupport": false,
+      "certification": true,
+      "specialty": "Рентгенолог"
+    },
+    {
+      "id": 17,
+      "title": "Врач-гастроэнтеролог",
+      "company": {
+        "name": "Гастроцентр"
+      },
+      "salary": {
+        "from": 130000,
+        "to": 170000,
+        "currency": "₽"
+      },
+      "description": "Приглашаем врача-гастроэнтеролога для амбулаторного приема. Возможность профессионального роста.",
+      "location": "Новосибирск",
+      "publishedAt": "2024-03-01",
+      "education": "specialist",
+      "experience": "1-3",
+      "employmentType": "full-time",
+      "socialSupport": false,
+      "certification": true,
+      "specialty": "Гастроэнтеролог"
+    },
+    {
+      "id": 18,
+      "title": "Врач-пульмонолог",
+      "company": {
+        "name": "Клиника респираторной медицины"
+      },
+      "salary": {
+        "from": 140000,
+        "to": 180000,
+        "currency": "₽"
+      },
+      "description": "Требуется врач-пульмонолог для работы в специализированной клинике. Опыт работы с бронхоскопией.",
+      "location": "Санкт-Петербург",
+      "publishedAt": "2024-03-01",
+      "education": "specialist",
+      "experience": "3-5",
+      "employmentType": "full-time",
+      "socialSupport": true,
+      "certification": true,
+      "specialty": "Пульмонолог"
+    },
+    {
+      "id": 19,
+      "title": "Врач-ревматолог",
+      "company": {
+        "name": "Ревматологический центр"
+      },
+      "salary": {
+        "from": 120000,
+        "to": 160000,
+        "currency": "₽"
+      },
+      "description": "Приглашаем врача-ревматолога для работы в специализированном центре. Возможность научной деятельности.",
+      "location": "Москва",
+      "publishedAt": "2024-02-29",
+      "education": "specialist",
+      "experience": "5+",
+      "employmentType": "full-time",
+      "socialSupport": true,
+      "certification": true,
+      "specialty": "Ревматолог"
+    },
+    {
+      "id": 20,
+      "title": "Врач-онколог",
+      "company": {
+        "name": "Онкологический диспансер"
+      },
+      "salary": {
+        "from": 170000,
+        "to": 230000,
+        "currency": "₽"
+      },
+      "description": "Требуется врач-онколог для работы в стационаре. Опыт работы в химиотерапии, полный соцпакет.",
+      "location": "Казань",
+      "publishedAt": "2024-02-29",
+      "education": "specialist",
+      "experience": "5+",
+      "employmentType": "full-time",
+      "socialSupport": true,
+      "certification": true,
+      "specialty": "Онколог"
+    },
+    {
+      "id": 21,
+      "title": "Врач-аллерголог",
+      "company": {
+        "name": "Аллергологический центр"
+      },
+      "salary": {
+        "from": 110000,
+        "to": 150000,
+        "currency": "₽"
+      },
+      "description": "Приглашаем врача-аллерголога для амбулаторного приема. Возможность проведения исследований.",
+      "location": "Краснодар",
+      "publishedAt": "2024-02-28",
+      "education": "specialist",
+      "experience": "1-3",
+      "employmentType": "part-time",
+      "socialSupport": false,
+      "certification": true,
+      "specialty": "Аллерголог"
+    },
+    {
+      "id": 22,
+      "title": "Врач-инфекционист",
+      "company": {
+        "name": "Инфекционная больница"
+      },
+      "salary": {
+        "from": 140000,
+        "to": 190000,
+        "currency": "₽"
+      },
+      "description": "Требуется врач-инфекционист для работы в стационаре. Опыт работы с особо опасными инфекциями.",
+      "location": "Ростов-на-Дону",
+      "publishedAt": "2024-02-28",
+      "education": "specialist",
+      "experience": "5+",
+      "employmentType": "full-time",
+      "socialSupport": true,
+      "certification": true,
+      "specialty": "Инфекционист"
+    },
+    {
+      "id": 23,
+      "title": "Врач-нефролог",
+      "company": {
+        "name": "Нефрологический центр"
+      },
+      "salary": {
+        "from": 130000,
+        "to": 180000,
+        "currency": "₽"
+      },
+      "description": "Приглашаем врача-нефролога для работы в диализном центре. Современное оборудование.",
+      "location": "Воронеж",
+      "publishedAt": "2024-02-27",
+      "education": "specialist",
+      "experience": "3-5",
+      "employmentType": "full-time",
+      "socialSupport": true,
+      "certification": true,
+      "specialty": "Нефролог"
+    }
+  ]
