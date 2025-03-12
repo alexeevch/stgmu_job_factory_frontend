@@ -1,4 +1,4 @@
-import vacancies from '../data/mock/vacancies.json';
+import vacancies from "../data/mock/vacancies.json";
 
 export default defineEventHandler(() => {
   return {
