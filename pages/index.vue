@@ -1,12 +1,10 @@
 <script setup lang="ts">
 useSeoMeta({
   title: "Главная страница",
-  description: "Нади работу мечты",
+  description: "Найди работу мечты",
 });
 </script>
 
 <template>
-  <div>index page</div>
+  <div>homepage</div>
 </template>
-
-<style scoped></style>
