@@ -30,5 +30,8 @@ export default defineNuxtConfig({
   tailwindcss: {
     configPath: "~/tailwind.config.js",
   },
-  css: ["~/assets/css/main.css"],
+  css: [
+    "~/assets/css/main.css",
+    "primeicons/primeicons.css",
+  ],
 });
