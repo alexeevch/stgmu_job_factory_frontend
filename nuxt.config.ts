@@ -17,6 +17,9 @@ export default defineNuxtConfig({
       apiUrl: process.env.API_URL,
     },
   },
+  pinia: {
+    storesDirs: ["./stores/**"],
+  },
   primevue: {
     importTheme: { from: "~/configs/theme.config.ts" },
     options: {
